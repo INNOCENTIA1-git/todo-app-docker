@@ -1,0 +1,32 @@
+
+services:
+  # Todo application service
+  todo-app:
+    # Build from Dockerfile in current directory
+    build: .
+    
+    # Use the image we created
+    image: todo-app:latest
+    
+    # Container name
+    container_name: todo-app
+    
+    # Port mapping (host:container)
+    ports:
+      - "3000:3000"
+    
+    # Environment variables (if needed)
+    environment:
+      - NODE_ENV=production
+    
+    # Restart policy
+    restart: unless-stopped
+    
+    # Health check
+    healthcheck:
+      test: ["CMD", "wget", "--quiet", "--tries=1", "--spider", "http://localhost:3000"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s
+
