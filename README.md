@@ -1,12 +1,25 @@
 # Todo App Docker Deployment
 
-## Ì≥ã Project Overview
+# Todo App Docker Deployment
+
+![Docker Build](https://github.com/INNOCENTIA1-git/todo-app-docker/actions/workflows/docker-build-push.yml/badge.svg)
+![PR Checks](https://github.com/INNOCENTIA1-git/todo-app-docker/actions/workflows/pr-checks.yml/badge.svg)
+![Security Scan](https://github.com/INNOCENTIA1-git/todo-app-docker/workflows/Security%20Scan/badge.svg)
+![Docker Image Size](https://img.shields.io/docker/image-size/innocentia15/todo-app/latest)
+![Docker Pulls](https://img.shields.io/docker/pulls/innocentia15/todo-app)
+![GitHub last commit](https://img.shields.io/github/last-commit/INNOCENTIA1-git/todo-app-docker)
+![License](https://img.shields.io/github/license/INNOCENTIA1-git/todo-app-docker)
+
+## üìã Project Overview
+...
+
+## ÔøΩÔøΩÔøΩ Project Overview
 
 This project demonstrates the containerization of a full-stack Todo application using Docker and Docker Compose. It showcases skills in building optimized Docker images, container orchestration, and deployment to DockerHub.
 
 **Original Repository:** [Docker Getting Started App](https://github.com/docker/getting-started-app)
 
-## ÌæØ Project Objectives
+## ÔøΩÔøΩÔøΩ Project Objectives
 
 - Build production-ready Docker images using best practices
 - Implement efficient layer caching for faster builds
@@ -14,7 +27,7 @@ This project demonstrates the containerization of a full-stack Todo application 
 - Push images to DockerHub container registry
 - Create comprehensive documentation for DevOps portfolio
 
-## Ìª†Ô∏è Technologies Used
+## ÔøΩÔøΩÔøΩÔ∏è Technologies Used
 
 | Technology | Purpose | Version |
 |------------|---------|---------|
@@ -25,7 +38,7 @@ This project demonstrates the containerization of a full-stack Todo application 
 | React | Frontend framework | Latest |
 | DockerHub | Container registry | - |
 
-## Ì≥Å Project Structure
+## ÔøΩÔøΩÔøΩ Project Structure
 
 ```
 todo-app-docker/
@@ -44,7 +57,7 @@ todo-app-docker/
 ‚îî‚îÄ‚îÄ README.md              # This file
 ```
 
-## Ì∫Ä Quick Start
+## ÔøΩÔøΩÔøΩ Quick Start
 
 ### Prerequisites
 
@@ -86,7 +99,7 @@ docker-compose logs -f
 docker-compose down
 ```
 
-## Ì∞≥ Docker Implementation
+## ÔøΩÔøΩÔøΩ Docker Implementation
 
 ### Dockerfile Breakdown
 
@@ -137,7 +150,7 @@ README.md
 - Prevents sensitive data exposure
 - Speeds up build process
 
-## Ì≥¶ Docker Compose Features
+## ÔøΩÔøΩÔøΩ Docker Compose Features
 
 ### Service Configuration
 
@@ -168,7 +181,7 @@ services:
 - **Environment Variables:** Configurable deployment
 - **Port Mapping:** Flexible networking setup
 
-## Ì≥∏ Deployment Evidence
+## ÔøΩÔøΩÔøΩ Deployment Evidence
 
 ### Docker Build Process
 ![Docker Build](screenshots-01-docker-build.png)
@@ -194,7 +207,7 @@ services:
 ![Compose Running](screenshots-06-compose-running.png)
 *Application orchestrated with health checks*
 
-## Ì¥ó Container Registry
+## ÔøΩÔøΩÔøΩ Container Registry
 
 ### DockerHub
 
@@ -210,7 +223,7 @@ docker pull innocentia15/todo-app:latest
 docker run -d -p 3000:3000 innocentia15/todo-app:latest
 ```
 
-## Ì∑™ Testing & Verification
+## ÔøΩÔøΩÔøΩ Testing & Verification
 
 ### Manual Testing Steps
 
@@ -262,7 +275,7 @@ docker-compose logs
 docker-compose down
 ```
 
-## Ì¥ß Troubleshooting
+## ÔøΩÔøΩÔøΩ Troubleshooting
 
 ### Common Issues & Solutions
 
@@ -300,7 +313,7 @@ docker run -it todo-app:latest sh
 docker-compose up --build
 ```
 
-## Ì≥ö Key DevOps Concepts Demonstrated
+## ÔøΩÔøΩÔøΩ Key DevOps Concepts Demonstrated
 
 ### 1. **Containerization Best Practices**
 - Multi-layer caching optimization
@@ -326,7 +339,7 @@ docker-compose up --build
 - Portable across enviroments
 - self-documenting setup
 
-## Ì¥Æ Future Enhancements
+## ÔøΩÔøΩÔøΩ Future Enhancements
 
 - [ ] Add PostgreSQL database with Docker volume
 - [ ] Implement multi-stage build for smaller production image
@@ -337,7 +350,7 @@ docker-compose up --build
 - [ ] Add Nginx reverse proxy
 - [ ] Set up monitoring with Prometheus
 
-## Ì≥à Project Metrics
+## ÔøΩÔøΩÔøΩ Project Metrics
 
 | Metric | Value |
 |--------|-------|
@@ -349,7 +362,7 @@ docker-compose up --build
 | Container Startup | <2 seconds |
 | Memory Usage | ~50MB |
 
-## Ì±§ Author
+## ÔøΩÔøΩÔøΩ Author
 
 **INNOCENTIA AZAL**
 - GitHub: [@INNOCENTIA1-git](https://github.com/INNOCENTIA1-git)
@@ -357,11 +370,11 @@ docker-compose up --build
 - Email: innocentiaazal1@gmail.com
 
 
-## Ì≥Ñ License
+## ÔøΩÔøΩÔøΩ License
 
 This project is open source and available under the [MIT License](LICENSE).
 
-## Ìπè Acknowledgments
+## ÔøΩÔøΩÔøΩ Acknowledgments
 
 - Original app from [Docker Getting Started](https://github.com/docker/getting-started-app)
 - Docker documentation and community
